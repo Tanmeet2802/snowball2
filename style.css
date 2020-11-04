@@ -1,0 +1,260 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: serif;
+  border-top: solid black 0px;
+}
+.main{
+  max-width: 1400px;
+  margin: auto;
+}
+
+header{
+  background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(./Bakgrunn.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+
+ul{
+  float: right;
+  margin-top: 28px;
+  margin-right: 8px;
+
+}
+
+ul li{
+  display: inline-block;
+  border: black solid 1px;
+}
+
+ul li a{
+  text-decoration: none;
+  padding: 5px 20px;
+  border: 1px solid transparent;
+  transition: 0.5s ease;
+  color: white;
+}
+
+ul li.aktiv a{
+  background-color: lightgrey;
+  color: black;
+}
+
+ul li a:hover{
+  background-color: lightgrey;
+  color: black;
+}
+
+.title{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  float: left;
+  transform: translate(-50%, -50%);
+
+}
+.title h1{
+  color: white;
+  font-size: 65px;
+
+}
+.title h2{
+  color: white;
+  font-size: 65px;
+  margin-left: 90px;
+}
+
+.logo img{
+  float: left;
+  width: 135px;
+  height: 140px;
+  margin-top: 28px;
+}
+
+.knapp{
+  position: absolute;
+  top: 63%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.knapp2{
+  position: absolute;
+  top: 195%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.knapp3{
+  position: absolute;
+  top: 295%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.knapp4{
+  position: absolute;
+  top: 395%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.knapper{
+  text-decoration: none;
+  color: white;
+  transition: 0.4s ease;
+  padding: 12px 27px;
+  border: 1px solid white;
+  transition: 0.4s ease;
+}
+
+.knapper:hover{
+  background-color: lightgrey;
+  color: black;
+}
+
+.nede{
+  height: 100vh;
+  background-color: darkgrey;
+  border: black solid 2px;
+}
+
+
+.nedeos{
+  padding: 5vw;
+  float: left;
+  padding-top: 49vh;
+}
+.nedeos h1{
+  font-size: 3vw;
+}
+
+.nedeos2{
+  padding: 5vw;
+  float: left;
+  padding-top: 49vh;
+}
+.nedeos2 h1{
+  font-size: 3vw;
+}
+
+.nedetekst{
+  font-size: 3vh;
+  padding-top: 49vh;
+  float: left;
+
+}
+
+.nedetekst2{
+  font-size: 3vh;
+  padding-top: 49vh;
+  float: left;
+
+}
+.nedetekst3{
+  font-size: 3vh;
+  padding-top: 49vh;
+  float: left;
+}
+
+
+.nedeos3{
+  padding: 1vw;
+  float: left;
+  padding-top: 49vh;
+  height: 6vh;
+  border-top: black solid 1px;
+  background-color: darkgrey;
+}
+.nedeos3 h1{
+  font-size: 3vw;
+}
+
+
+
+.bilde3{
+  float: left;
+  margin-left: 57vw;
+  margin-top: -10vh;
+}
+
+
+
+[class*="col-"]{
+  border: black solid 0px;
+
+}
+
+.row::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+.col-small15{width: 15%;}
+.col-small30{width: 30%;}
+.col-small40{width: 40%;}
+.col-small50{width: 50%;}
+.col-small60{width: 60%;}
+.col-small70{width: 70%;}
+.col-small100{width: 100%;}
+
+
+
+@media only screen and (max-width: 600px){
+  .com-mob15{width: 15%;}
+  .col-mob30{width: 30%;}
+  .col-mob50{width: 50%;}
+  .col-mob70{width: 70%;}
+  .col-mob100{width: 100%;}
+  .nedeos h1{
+    margin-left: 40vw;
+    padding-top: 5vh;
+    font-size: 5vh;
+  }
+  .nedeos{
+    padding-top: 5vh;
+  }
+  .nedetekst{
+    font-size: 3vh;
+    padding-top: 10vh;
+    padding-left: 20vh;
+  }
+  .nedeos2 h1{
+      margin-left: 35vw;
+      padding-top: 5vh;
+      font-size: 5vh;
+  }
+  .nedeos2{padding-top: 5vh;}
+  .nedetekst2{
+    font-size: 3vh;
+    padding-top: 10vh;
+    padding-left: 33vh;
+  }
+
+  .bilde3 img{
+    margin-left: -20vw;
+    margin-bottom: -50vw;
+    width: 40vw;
+    height: 40vw;
+  }
+  .nedeos3 h1{
+    margin-left: 40vw;
+    padding-top: 5vh;
+    font-size: 5vh;
+  }
+  .nedeos3{
+    padding-top: 8vh;
+  }
+  .nedetekst3{
+    font-size: 3vh;
+    padding-top: 30vh;
+    padding-left: 20vh;
+  }
+
+  }
+
+}
